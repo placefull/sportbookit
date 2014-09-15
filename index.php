@@ -47,21 +47,29 @@
                         </div>
                     </div>
                     <div class="col-sm-8">
-                        <div class="single-tile text-center activity-type flight">
+                        <div class="single-tile text-center activity-type race">
                             <div class="inner">
-                                <h3>Experience Aerobatic Flight</h3>
-                                <a href="/activities/experience-aerobatic-flight" class="btn btn-default knockout">Book Now</a>
+                                <h3>Born to Race</h3>
+                                <a href="/activities/born-to-race" class="btn btn-default knockout">Book Now</a>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="row">
-                    <div class="col-sm-12">
+                    <div class="col-sm-8">
                         <div class="single-tile text-center activity-type beach">
                             <div class="inner">
                                 <h3>Kick-back Summer Volleyball Tour</h3>
                                 <a href="/activities/kick-back-summer-volleyball-tour" class="btn btn-default knockout">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="single-tile text-center activity-type flight">
+                            <div class="inner">
+                                <h3>Experience Aerobatic Flight</h3>
+                                <a href="/activities/experience-aerobatic-flight" class="btn btn-default knockout">Book Now</a>
                             </div>
                         </div>
                     </div>
