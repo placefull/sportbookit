@@ -1,0 +1,35 @@
+// Reset buttons
+.btn {
+  font-size: 16px;
+  border-radius: 32px;
+  padding: 10px 20px;
+
+  &.btn-default {
+    background: $primary-color;
+    color: white;
+    border-color: $primary-color;
+  }
+
+  &.btn-lg {
+    font-size: 1.1em;
+    padding: 15px 25px;
+  }
+
+  // Knockout button
+  &.knockout {
+    background: transparent;
+    color: white;
+    font-weight: bold;
+    border: 2px solid white;
+
+    &:hover {
+      background: rgba(white, .2);
+    }
+
+    &:active {
+      box-shadow: none;
+      position: relative;
+      top: 1px;
+    }
+  }
+}

@@ -1,0 +1,66 @@
+.masthead {
+  height: 30%;
+  background: #3a3a3a url('../../images/hike.jpg') no-repeat 0 0;
+  background-size: cover;
+  color: white;
+  display: table;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  transition: background .5s linear;
+
+  &.landing {
+    height: 70%;
+  }
+
+  @media screen and (max-width: 480px) {
+    height: 100% !important;
+  }
+
+  @media screen and (max-height: 320px) {
+    height: 100% !important;
+  }
+
+  // Overlays for background image
+  &:before,
+  &:after {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  &:before {
+    z-index: 2;
+    background: rgba(#2a2a2a, .8);
+  }
+
+  h1 {
+    margin: 0 0 5px;
+  }
+
+  p {
+    color: rgba(white, .7);
+    margin-bottom: 30px;
+  }
+
+  // Topo overlay
+  &:after {
+    z-index: 3;
+    background: url('../../images/topo-light.png') no-repeat 0 0;
+    background-size: cover;
+    opacity: .4;
+  }
+
+  // Vertically align masthead message
+  & > .table-cell {
+    display: table-cell;
+    width: 100%;
+    vertical-align: middle;
+    position: relative;
+    z-index: 4;
+  }
+}

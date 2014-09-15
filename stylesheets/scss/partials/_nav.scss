@@ -1,0 +1,54 @@
+nav {
+  padding-top: 20px;
+
+  a {
+    color: white;
+
+    &:hover {
+      color: white;
+      text-decoration: none;
+    }
+  }
+
+  // Home fontawesome
+  .home {
+    .fa-stack {
+      .fa:last-child {
+        color: #3a3a3a;
+      }
+    }
+  }
+
+  // Position absolute for main nav
+  &.main {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+  }
+
+  // Main navigation links
+  .main-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+
+    li {
+      float: left;
+      font-size: 16px;
+    }
+
+    a {
+      display: block;
+      line-height: 40px;
+      padding: 0 20px;
+      color: rgba(white, .5);
+
+      &:hover {
+        color: white;
+      }
+    }
+  }
+}

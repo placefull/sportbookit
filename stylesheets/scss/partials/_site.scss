@@ -1,0 +1,40 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $header-font-family;
+
+  // Draw a small divider under headings
+  &.blip {
+    position: relative;
+    margin-bottom: 50px;
+
+    &:after {
+      $blip-width: 50px;
+      position: absolute;
+      bottom: -15px;
+      left: 50%;
+      display: block;
+      margin-left: -($blip-width / 2);
+      width: $blip-width;
+      height: 2px;
+      background: #84B02B;
+      content: '';
+    }
+  }
+}
+
+// Transition for links
+a {
+  color: #84B02B;
+
+  &:hover {
+    color: darken(#84B02B, 5%);
+  }
+}
